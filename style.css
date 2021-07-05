@@ -421,6 +421,7 @@ th:last-child{
 .account-page{
     padding: 50px 0;
     background: radial-gradient( rgba(255, 0, 0, 0.486), rgba(0, 128, 0, 0.445));
+   
 
 }
 .form-container{
@@ -431,8 +432,9 @@ th:last-child{
     text-align: center;
     padding: 20px 0;
     margin: auto;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    border-radius: 5px;
 }
 .form-container span{
     font-weight: bold;
