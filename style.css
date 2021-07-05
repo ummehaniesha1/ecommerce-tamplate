@@ -367,6 +367,7 @@ input:focus{
 table{
     width: 100%;
     border-collapse: collapse;
+    border: 1px solid #ccc;
 }
 .cart-info{
     display: flex;
@@ -378,9 +379,11 @@ th{
     color: #fff;
     background: #ff523b;
     font-weight: normal;
+    border: 1px solid #ccc;
 }
 td{
     padding: 10px 5px;
+    border: 1px solid #ccc;
 }
 td input{
     width: 40px;
